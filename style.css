@@ -1,8 +1,9 @@
 /* STYLE SECTIONING TAGS */
 * { /* Reset the space of the webpage */
-   margin: 0px;
-   padding: 0px;
+   margin: 3px;
+   padding: 3px;
 }
+
 
 body {
  background-color: lightcyan; 
@@ -14,10 +15,109 @@ h1 {
   color: navy;
 }
 
+/*.pic {
+  display: flex;
+   margin-top: 2em;
+   }*/
+  /* uncomment the next line to center the questions and answers */
+  /* justify-content: center; */
+  
 /* STYLE IMAGES */
+/*.image {
+  margin: 5px;
+}
 
+/* STYLE IMAGES */
+/*.image{ img {
+  height: 10em;
+}
+      }*/
+img{
+   display:block;
+   width:90%;
+   height: auto;
+   margin-left: auto;
+   margin-right: auto;
+
+   border-stylr:solid;
+   border-color: white;
+   border-width:5px;
+   border-radius: 5px;
+}
+.flex-container{
+   display: flex;
+   flex-direction:row;
+   flex-wrap: nowrap;
+}
+.flex-iteam{
+   flex-basis: 100%;
+   margin: 1%;
+}
+img{
+   width:100%
+}
 /* STYLE NAV BAR */
+.nice{
+  ul{list-style-type: none;
+  background-color:#003046; 
+  overflow: hidden;
+  padding:1em;
+     text-align: center;
+    }
+}
+li{
+  display: inline;
+}
 
+li a{
+  text-decoration: none;
+  color: white;
+  font-size: 0.5cm;
+  padding: 1em;
+}
+
+li a:hover{
+  background-color: #3b7691
+}
 /* STYLE BUTTONS */
 
 /* ADD MORE! */
+.no{
+   color:#0e68a0;
+   font-family:monospace;
+   text-align:center;
+}
+h1 {
+  color: navy;
+  font-size:39px;
+  text-align:center;
+}
+
+h3 {
+  color: #0059b3;
+  font-size:24px;
+  text-align:center;
+}
+
+cool{
+  main{
+    background-color:#b3d9ff; 
+      color:#0059b3;
+       font-family::monospace;
+    border: 3px solid white;
+     test-align:center;
+
+  }
+}/* trying to change the text alignment, font and color*/
+
+.fun{background-color:#b3daff; 
+    color:#0059b3;
+     font-family:monospace;;
+  border: 3px solid white;}
+
+@media screen and (max-width:850px){
+   .flex-container{
+      flex-wrap:wrap;
+   }
+   
+}
